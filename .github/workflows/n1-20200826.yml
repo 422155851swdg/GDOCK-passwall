@@ -10,9 +10,9 @@ name:  编译支持斐讯N1盒子的OpenWRT固件-20200826
 on: 
   release:
     types: [published]
-#  push:
-#    branches: 
-#      - master
+  push:
+    branches: 
+      - master
 #  watch:
 #    types: [started]
 
