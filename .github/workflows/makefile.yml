@@ -90,10 +90,10 @@ jobs:
       run: |
         #=================================================
         #+++++++++++++++++++++++++++++++++++++++++++++++++
-        #cp -f newifi3.config ./lede/.config
-        #chmod +x diy-newifi3.sh
-        #cd lede
-        #../diy-newifi3.sh
+        cp -f .config ./lede/.config
+        chmod +x diy-newifi3.sh
+        cd lede
+        ../diy-newifi3.sh
         #++++++++++++++++++++++++++++++++++++++++++++++++
         #=================================================
         make defconfig
